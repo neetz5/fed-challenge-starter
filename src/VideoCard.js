@@ -1,95 +1,21 @@
 import React, { Component } from 'react';
-/*import ReactDOM from 'react-dom';*/
 import './App.css';
 import {BsClock} from "react-icons/bs";
 import {AiOutlineTag} from "react-icons/ai";
-/*import details from './details.json';
-console.log(details);
-const video=[
-    {
-        "imageUrl":"../src/images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"./images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    },
-    {
-        "imageUrl":"images/lake-inniscarra-thumb.jpg",
-        "description":"Lake Inniscara,Ireland-  ",
-        "imgThumb":"C:/ReactProjects/fed-challenge-starter/src/images/lake-inniscarra-trainer.jpg",
-        "duration":"30:53",
-        "views":"6,248M"
-    }
-]
-console.log(video);
-class VideoCard extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { 
-            videoDetails:details
-         };
-         console.log(video[0].duration);
-         
-    }
-    render() {
-        return (
-            <div>
-            <h1>{video[0].duration}</h1>
-            <img src={require(video[0].imageUrl)} />
-            </div>
-        );
-    }
-}
 
-export default VideoCard;*/
-
- function VideoCard(){
-     
+    class VideoCard extends Component {
+        constructor(props) {
+            super(props);
+            this.state = { 
+                
+             };
+           
+             
+        }
+        render() {
      return(
          <div className="grid-container">
-         <div className="grid-card" onClick={() => alert('hello')}>
+         <div className="grid-card" onClick={() => console.log('hello')}>
              <img className="video-card" src={require("./images/lake-inniscarra-thumb.jpg")} />
                       
                 <span><p className="desc-card">Lake Inniscara,Ireland-  
@@ -192,4 +118,5 @@ export default VideoCard;*/
          </div>
      )
  }
+}
  export default VideoCard;

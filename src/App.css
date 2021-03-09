@@ -70,6 +70,10 @@
   box-shadow: 0 4px 8px 0 #000000e7;
 }
 
+.grid-card:active {
+  box-shadow: 0 5px rgb(26, 25, 25);
+}
+
 .video-card {
   max-width: 250px;
 
@@ -110,7 +114,7 @@
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  height: 51%;
+  height: 23vh;
   width: 35%;
   padding: 20px;
   text-align: center;
